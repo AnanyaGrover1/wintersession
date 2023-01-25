@@ -52,6 +52,25 @@ overflow-x: hidden;
   padding-bottom: 5% ;
   text-align: center;
   /* font-family: 'franklin-gothic-urw'; */
+
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 80px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: #394fca;
+    text-shadow:
+      -1px -1px 0 #db693f,
+      -2px -2px 0 #db693f,
+      -3px -3px 0 #ddadcf,
+      -4px -4px 0 white,
+      -5px -5px 0 white,
+      -6px -6px 0 white,
+      -7px -7px 0 white,
+      -8px -8px 0 white,
+      -30px 20px 40px dimgrey
+
 }
 
 #gustavo-pic{
@@ -100,11 +119,9 @@ background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
   vertical-align: bottom !important;
 }
 
-#letterfromed{
+#projectTitleDiv{
 
-  background-color:
-  #2A0001;
-color: white;
+  background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%);
 }
 
 #letterfromed .text{
@@ -122,12 +139,12 @@ color: white;
 }
 
 
-#Tierra-y-memoria{
+#history-of-wintersession{
   background-color: #002535;
   /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
 }
 
-#gustavo-blanco{
+#offerings-by-numbers{
   background-color:  #014421;
 }
 
@@ -182,7 +199,7 @@ width: 100%;
   text-decoration: none;
 }
 
-#gustavo-blanco a{
+#offerings-by-numbers a{
   color: yellow;
 
 }
@@ -197,12 +214,12 @@ width: 100%;
   opacity: 30%;
 
 }
-#colonizing-alaska{
+#humor{
   background-color: #e9cfc1;
   color: #002535;
 }
 
-#colonizing-alaska a{
+#humor a{
   color: #8B4000;
 }
 
@@ -225,7 +242,7 @@ width: 100%;
   text-align: right;
   line-height: 1px;
 }
-#jessica-lambert{
+#prospect-11{
 
   background-image: linear-gradient(180deg, #ADD8E6 0%, #F0F8FF 74%);
   color: #451926;
@@ -250,7 +267,7 @@ width: 100%;
 #explore a{
   color: white;
 }
-#jessica-lambert a{
+#prospect-11 a{
   color: maroon;
 }
 .article-box-spacer{
@@ -339,19 +356,19 @@ line-height: 15px;
 
 }
 
-#photo-story a{
+#keynote-speech a{
   color: maroon;
   font-family: 'franklin-gothic-urw' !important
 }
-#photo-story p{
+#keynote-speech p{
   font-family: 'franklin-gothic-urw' !important
 }
 
-#photo-story strong{
+#keynote-speech strong{
   font-family: 'franklin-gothic-urw' !important
 }
 
-#photo-story {
+#keynote-speech {
   background-color: #C5BA8A;
   color: #654321;
 }
