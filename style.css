@@ -1,0 +1,441 @@
+* {
+  margin: 0; padding: 0;
+  font-family: minion-pro;
+  margin: 0px;
+  padding: 0px;
+
+
+
+}
+
+html {
+  background-color: black;
+  overflow-x: hidden;
+
+}
+body{
+background-color: black;
+color: white;
+overflow-x: hidden;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 5px;
+  height: 30px;
+  width: auto;
+  position: absolute;
+}
+.GlowColor{
+  color: #ffdd87;
+  text-shadow:1px 1px 10px #ffdd87;
+
+}
+
+#Tierra-y-memoria b{
+  text-shadow:1px 1px 10px #ffdd87;
+  color: #ffdd87;
+}
+
+#Tierra-y-memoria a{
+  color: #ffdd87;
+
+}
+
+#projectTitle{
+  /* padding-top: 5% ; */
+  padding-bottom: 5% ;
+  text-align: center;
+  /* font-family: 'franklin-gothic-urw'; */
+}
+
+#gustavo-pic{
+  width: 100%;
+  text-align: center;
+}
+.yellow{
+  color: yellow;
+}
+.red{
+  color: red;
+}
+#cover {
+  background-color: white;
+  min-height: none;
+}
+
+#podcast .podcast-container{
+  margin: auto;
+padding-top: 40px;
+padding-bottom: 40px;
+  width: 50%;
+}
+
+#podcast{
+
+  min-height: 70vh;
+
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
+
+}
+
+
+
+#podcast .text {
+
+ margin: auto;
+ padding-top: 40px;
+}
+
+
+
+#cover img{
+  width: 100%;
+  vertical-align: bottom !important;
+}
+
+#letterfromed{
+
+  background-color:
+  #2A0001;
+color: white;
+}
+
+#letterfromed .text{
+  padding-top: 2%;
+  width: 70%;
+  margin: auto;
+
+}
+
+
+
+
+.basicdommedia{
+  width: 100%;
+}
+
+
+#Tierra-y-memoria{
+  background-color: #002535;
+  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
+}
+
+#gustavo-blanco{
+  background-color:  #014421;
+}
+
+
+.info a:hover{
+text-decoration:underline;
+}
+
+
+.info .text{
+width: 70%;
+margin: auto;
+font-family: 'minion-pro';
+}
+
+.info p {
+padding-bottom: 30px ;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+.info .media-embed {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+
+}
+
+/* #Tierra-y-memoria .headline{
+  font-family: 'franklin-gothic-urw';
+
+} */
+
+.article-box img{
+  width: 40%;
+  align-self: flex-start;
+
+}
+#credits{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.info.article-box a{
+  color: white !important;
+}
+
+.info a{
+  color: white;
+  text-decoration: none;
+}
+
+#gustavo-blanco a{
+  color: yellow;
+
+}
+
+.article-box{
+  display: flex;
+  padding: 7% 5% 7% 5%;
+  background-color: #001209;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-radius: 9px;
+  opacity: 30%;
+
+}
+#colonizing-alaska{
+  background-color: #e9cfc1;
+  color: #002535;
+}
+
+#colonizing-alaska a{
+  color: #8B4000;
+}
+
+.intro-box{
+  text-align: center;
+  margin: auto;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-intro{
+  /* display: flex; */
+
+}
+
+.marie-sig{
+  text-align: right;
+  line-height: 1px;
+}
+#jessica-lambert{
+
+  background-image: linear-gradient(180deg, #ADD8E6 0%, #F0F8FF 74%);
+  color: #451926;
+}
+
+#explore {
+  background-color: #014421;
+  /* background-image: linear-gradient(180deg, #014421 0%, #6A2715 74%); */
+  color: white;
+}
+
+
+#explore .headline{
+  color: white;
+  text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
+}
+#podcast a:hover{
+  text-decoration: none;
+
+}
+
+#explore a{
+  color: white;
+}
+#jessica-lambert a{
+  color: maroon;
+}
+.article-box-spacer{
+  width: 50px;
+}
+.article-box-headline{
+  /* line-height: 15px; */
+  padding-bottom: 10px;
+}
+.interview-box{
+  display: flex;
+}
+
+.interview-box .img-container{
+  width: 40%;
+}
+
+.interview-box .interview-text{
+  width: 60%;
+}
+
+.interview-box img{
+  width: 100%;
+}
+.info h1{
+padding-bottom: 30px;
+}
+
+.info .headline {
+font-size: 60px;
+line-height: 55px;
+padding-bottom: 10px;
+}
+
+.info .overline {
+font-family: 'franklin-gothic-urw';
+padding-bottom: 0%;
+padding-top: 10vh;
+
+}
+
+.intro-box{
+  display: flex;
+}
+
+.intro-box .img-wrapper{
+  width: 70%;
+}
+.intro-box img{
+  width: 100%;
+}
+#letterfromed .overline{
+  padding-top: 0vh !important;
+}
+.info .overline-box {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+
+  }
+
+.article-box .headline {
+    font-size: 40px;
+    padding-bottom: 10px;
+
+    }
+
+.info .caption {
+text-align: right;
+font-family: 'franklin-gothic-urw';
+font-size: 15px;
+line-height: 15px;
+}
+
+.info .caption-left {
+  text-align: left;
+}
+
+
+.interview-title{
+  font-family: 'franklin-gothic-urw' !important;
+}
+
+.interview-response{
+
+  color: maroon;
+
+}
+
+#photo-story a{
+  color: maroon;
+  font-family: 'franklin-gothic-urw' !important
+}
+#photo-story p{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#photo-story strong{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#photo-story {
+  background-color: #C5BA8A;
+  color: #654321;
+}
+.vertical-photo{
+  width: 50%
+}
+.section {
+min-height: 100vh;
+background-color: black;
+
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .article-box{
+    flex-direction: column;
+  }
+
+  .article-box img{
+    width: 100%;
+    height: auto;
+    order: 5;
+  }
+
+
+  .absolute-bg {
+    position: relative;
+  }
+  .gallery-cell {
+    width: 100% !important; /* full width */
+  }
+
+  .info .headline {
+    font-size: 30px !important;
+  }
+
+  .intro-box{
+    flex-direction: column;
+  }
+
+  .intro-box .img-wrapper{
+    width: 100%;
+  }
+  .intro-box img{
+    width: 100%;
+  }
+
+  .info .text{
+    width: 85%;
+  }
+  .interview-box{
+flex-direction: column;
+  }
+
+  .interview-box .img-container{
+    width: 100%;
+  }
+
+  .interview-box .interview-text{
+    width: 100%;
+  }
+
+
+
+
+
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+	margin: 0px;
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+}
