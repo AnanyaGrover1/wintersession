@@ -3,9 +3,6 @@
   font-family: minion-pro;
   margin: 0px;
   padding: 0px;
-
-
-
 }
 
 html {
@@ -36,7 +33,9 @@ overflow-x: hidden;
   text-shadow:1px 1px 10px #ffdd87;
 
 }
-
+.text p a{
+  color: black;
+}
 #Tierra-y-memoria b{
   text-shadow:1px 1px 10px #ffdd87;
   color: #ffdd87;
@@ -47,16 +46,22 @@ overflow-x: hidden;
 
 }
 
-#projectTitle{
-  /* padding-top: 5% ; */
-  padding-bottom: 5% ;
-  text-align: center;
-  /* font-family: 'franklin-gothic-urw'; */
 
-    text-align: center;
+.projectTitle{
+  /* padding-top: 5% ; */
+  
+  /* padding-bottom: 5% ; */
+  /* text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px; */
+  /* font-family: 'franklin-gothic-urw'; */
+    /* margin-top: -70px; */
     font-family: 'Oswald', Helvetica, sans-serif;
-    font-size: 80px;
-    transform: skewY(-10deg);
+    font-size: 11vw;
+    /* transform: skewY(-10deg); */
+    line-height: 12vw;
+    font-weight: bolder;
     letter-spacing: 4px;
     word-spacing: -8px;
     color: #394fca;
@@ -68,8 +73,7 @@ overflow-x: hidden;
       -5px -5px 0 white,
       -6px -6px 0 white,
       -7px -7px 0 white,
-      -8px -8px 0 white,
-      -30px 20px 40px dimgrey
+      -8px -8px 0 white
 
 }
 
@@ -99,8 +103,8 @@ padding-bottom: 40px;
 
   min-height: 70vh;
 
-  background-color: #a4508b;
-background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
+  background-color: #3749CD;
+/* background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%); */
 
 }
 
@@ -120,8 +124,8 @@ background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
 }
 
 #projectTitleDiv{
-
-  background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%);
+  background-color: #EEEEEF;
+  /* background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%); */
 }
 
 #letterfromed .text{
@@ -138,14 +142,83 @@ background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%);
   width: 100%;
 }
 
+#puzzle-btn{
+  background-color: #db693f;
+  color: black;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+  transition: ease 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-#history-of-wintersession{
-  background-color: #002535;
+#puzzle-btn:hover{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #ddadcf;
+  transition: ease 0.3s;
+}
+
+#history-of-wintersession, #photostory{
+  background-color: #495AA7;
   /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
 }
 
+#history-of-wintersession .text p a, #photostory .text p a{
+  color: #ddadcf;
+  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
+}
+
+#opinion-winter2, #puzzle{
+  background-color: #394fca;
+}
+
 #offerings-by-numbers{
-  background-color:  #014421;
+  background-color:  #DD6737;
+}
+
+#dallas-mayor, #sports-winter, #podcast{
+  background-color: #EEEEEF;
+}
+
+#dallas-mayor .text, #podcast .text, #sports-winter .text{
+  color: black;
+}
+
+#dallas-mayor .text p a, #podcast .text p a, #sports-winter .text p a{
+  color:#db693f;
+}
+
+#prospect-11{
+  background-color: #db693f;
+}
+
+#opinion-winter{
+  background-color: #db693f;
+}
+
+#wintersession-nums, #humor-winter{
+  background-color:#DEACCF;
+}
+
+#wintersession-nums .text, #humor-winter .text{
+  color: black;
+}
+
+#wintersession-nums .text p a, #humor-winter .text p a{
+  color:#3749CD;
+}
+
+#prospect-11 .text p u{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2.4em;
+}
+
+#prospect-11 .text p em{
+  position: relative;
+  top: -10px;
 }
 
 
@@ -161,9 +234,9 @@ font-family: 'minion-pro';
 }
 
 .info p {
-padding-bottom: 30px ;
+margin-bottom: 20px ;
 font-size: 20px;
-line-height: 30px;
+line-height: 26px;
 }
 
 
@@ -215,7 +288,7 @@ width: 100%;
 
 }
 #humor{
-  background-color: #e9cfc1;
+  background-color: #DD6737;
   color: #002535;
 }
 
@@ -241,11 +314,6 @@ width: 100%;
 .marie-sig{
   text-align: right;
   line-height: 1px;
-}
-#prospect-11{
-
-  background-image: linear-gradient(180deg, #ADD8E6 0%, #F0F8FF 74%);
-  color: #451926;
 }
 
 #explore {
@@ -298,8 +366,8 @@ padding-bottom: 30px;
 
 .info .headline {
 font-size: 60px;
-line-height: 55px;
-padding-bottom: 10px;
+line-height: 60px;
+padding-bottom: 25px;
 }
 
 .info .overline {
@@ -336,9 +404,9 @@ padding-top: 10vh;
 
 .info .caption {
 text-align: right;
-font-family: 'franklin-gothic-urw';
+/* font-family: 'franklin-gothic-urw'; */
 font-size: 15px;
-line-height: 15px;
+line-height: 20px;
 }
 
 .info .caption-left {
@@ -369,7 +437,7 @@ line-height: 15px;
 }
 
 #keynote-speech {
-  background-color: #C5BA8A;
+  background-color: #DEACCF;
   color: #654321;
 }
 .vertical-photo{
@@ -382,8 +450,67 @@ background-color: black;
 
 }
 
-@media only screen and (max-width: 980px) {
+#slide {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
 
+#slide2 {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.9s;
+}
+
+#slide3 {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1.3s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 5%; }
+}
+
+@keyframes slide {
+  100% { left: 5%; }
+}
+
+.mobileTitle{
+  display: none;
+}
+
+@media only screen and (max-width: 980px) {
+  .projectTitle{
+    position: static;
+    text-align: center;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+  }
+
+  .mobileTitle{
+    display: block;
+    
+  }
+
+
+  #slide, #slide2, #slide3{
+    display: none;
+  }
+
+  #issue{
+    line-height: -300px;
+  }
   .article-box{
     flex-direction: column;
   }
@@ -403,6 +530,8 @@ background-color: black;
   }
 
   .info .headline {
+    
+    line-height: 33px;
     font-size: 30px !important;
   }
 
@@ -432,6 +561,10 @@ flex-direction: column;
     width: 100%;
   }
 
+  .section{
+    min-height: fit-content;
+  }
+
 
 
 
@@ -441,7 +574,7 @@ flex-direction: column;
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 
 body {
-	margin: 0px;
+    margin: 0px;
 }
 
   @keyframes gradient {
